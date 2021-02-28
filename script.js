@@ -17,7 +17,7 @@ function lightMode() {
   nav.style.backgroundColor = 'rgba(255 255 255 / 50%)'
   textbox.style.backgroundColor = 'rgba(0 0 0 / 50%)'
   toggleIcon.children[0].textContent = 'Light Mode'
-  toggleIcon.children[1].classList.remove('fa-moon', 'fa-sun')
+  toggleIcon.children[1].classList.replace('fa-moon', 'fa-sun')
   
   imageMode('light')
 }
