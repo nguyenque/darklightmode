@@ -293,4 +293,9 @@ input:checked + .slider::before {
   .theme-switch-wrapper {
     padding-top: 3rem;
   }
+  #home h1 {
+    font-size: 5rem;
+    padding: 0 2rem;
+    text-align: center;
+  }
 }
